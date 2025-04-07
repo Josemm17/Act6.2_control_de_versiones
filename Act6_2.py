@@ -8,3 +8,9 @@ def multi():
     print(a*b*c)
 
 multi()
+
+def suma(a, b):
+    return a + b
+
+resultado = suma(5, 5)
+print("La suma es:", resultado)
