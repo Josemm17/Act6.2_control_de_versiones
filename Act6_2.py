@@ -9,6 +9,18 @@ def multi():
 
 multi()
 
+### Función Isma
+def funcion_info(ruta_archivo)
+    import pandas as pd
+    df = pd.read_csv(ruta_archivo)
+    return {
+        "filas_columnas": df.shape,
+        "columnas": df.columns.tolist(),
+        "tipos_dato": df.dtypes,
+        "estadisticas": df.describe(include='all')
+    }
+  
+  
 ### FunciónSergio2
 def suma(a, b):
     return a + b
@@ -23,4 +35,5 @@ def raiz_cuadrada(aa):
     print(aa ** 0.5)
 
 raiz_cuadrada(aa)
+
 
