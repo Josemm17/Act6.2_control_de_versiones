@@ -8,3 +8,10 @@ def multi():
     print(a*b*c)
 
 multi()
+
+aa = float(input('Elige un número para obtener su raíz cuadrada: ')) t
+
+def raiz_cuadrada(aa):
+    print(aa ** 0.5)
+
+raiz_cuadrada(aa)
