@@ -9,9 +9,18 @@ def multi():
 
 multi()
 
+### FunciónSergio2
+def suma(a, b):
+    return a + b
+
+resultado = suma(5, 5)
+print("La suma es:", resultado)
+
+### Función raiz cuadrada 
 aa = float(input('Elige un número para obtener su raíz cuadrada: ')) t
 
 def raiz_cuadrada(aa):
     print(aa ** 0.5)
 
 raiz_cuadrada(aa)
+
